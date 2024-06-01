@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342C52BC2C0B9D840026E6C4 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C52BB2C0B9D840026E6C4 /* Main.swift */; };
+		342C52BE2C0BAFDD0026E6C4 /* MyColor .swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */; };
 		34E268542C0B0E4700A485D9 /* WOWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268532C0B0E4700A485D9 /* WOWApp.swift */; };
-		34E268562C0B0E4700A485D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268552C0B0E4700A485D9 /* ContentView.swift */; };
 		34E268582C0B0E4800A485D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E268572C0B0E4800A485D9 /* Assets.xcassets */; };
 		34E2685B2C0B0E4800A485D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E2685A2C0B0E4800A485D9 /* Preview Assets.xcassets */; };
 		34E268652C0B0E4800A485D9 /* WOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268642C0B0E4800A485D9 /* WOWTests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342C52BB2C0B9D840026E6C4 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyColor .swift"; sourceTree = "<group>"; };
 		34E268502C0B0E4700A485D9 /* WOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E268532C0B0E4700A485D9 /* WOWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWApp.swift; sourceTree = "<group>"; };
-		34E268552C0B0E4700A485D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34E268572C0B0E4800A485D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E2685A2C0B0E4800A485D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34E268602C0B0E4800A485D9 /* WOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342C52BA2C0B9CF60026E6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				342C52BB2C0B9D840026E6C4 /* Main.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		34E268472C0B0E4700A485D9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +104,11 @@
 		34E268522C0B0E4700A485D9 /* WOW */ = {
 			isa = PBXGroup;
 			children = (
+				342C52BA2C0B9CF60026E6C4 /* View */,
 				34E268532C0B0E4700A485D9 /* WOWApp.swift */,
-				34E268552C0B0E4700A485D9 /* ContentView.swift */,
 				34E268572C0B0E4800A485D9 /* Assets.xcassets */,
 				34E268592C0B0E4800A485D9 /* Preview Content */,
+				342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */,
 			);
 			path = WOW;
 			sourceTree = "<group>";
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E268562C0B0E4700A485D9 /* ContentView.swift in Sources */,
+				342C52BE2C0BAFDD0026E6C4 /* MyColor .swift in Sources */,
+				342C52BC2C0B9D840026E6C4 /* Main.swift in Sources */,
 				34E268542C0B0E4700A485D9 /* WOWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
