@@ -2,7 +2,7 @@
 //  WOWUITestsLaunchTests.swift
 //  WOWUITests
 //
-//  Created by choejihun on 6/1/24.
+//  Created by 최지훈 on 6/3/24.
 //
 
 import XCTest

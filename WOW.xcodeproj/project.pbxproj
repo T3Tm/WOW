@@ -7,63 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342C52BC2C0B9D840026E6C4 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C52BB2C0B9D840026E6C4 /* Main.swift */; };
-		342C52BE2C0BAFDD0026E6C4 /* MyColor .swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */; };
-		34E268542C0B0E4700A485D9 /* WOWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268532C0B0E4700A485D9 /* WOWApp.swift */; };
-		34E268582C0B0E4800A485D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E268572C0B0E4800A485D9 /* Assets.xcassets */; };
-		34E2685B2C0B0E4800A485D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E2685A2C0B0E4800A485D9 /* Preview Assets.xcassets */; };
-		34E268652C0B0E4800A485D9 /* WOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268642C0B0E4800A485D9 /* WOWTests.swift */; };
-		34E2686F2C0B0E4800A485D9 /* WOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2686E2C0B0E4800A485D9 /* WOWUITests.swift */; };
-		34E268712C0B0E4800A485D9 /* WOWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E268702C0B0E4800A485D9 /* WOWUITestsLaunchTests.swift */; };
+		3235DE212C0F7738004BA848 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235DE202C0F7738004BA848 /* LoginViewController.swift */; };
+		32D4E9172C0D560D0066DE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9162C0D560D0066DE8B /* AppDelegate.swift */; };
+		32D4E9192C0D560D0066DE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */; };
+		32D4E91E2C0D560D0066DE8B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 32D4E91D2C0D560D0066DE8B /* Base */; };
+		32D4E9202C0D560F0066DE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D4E91F2C0D560F0066DE8B /* Assets.xcassets */; };
+		32D4E9232C0D560F0066DE8B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 32D4E9222C0D560F0066DE8B /* Base */; };
+		32D4E92E2C0D560F0066DE8B /* WOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E92D2C0D560F0066DE8B /* WOWTests.swift */; };
+		32D4E9382C0D560F0066DE8B /* WOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9372C0D560F0066DE8B /* WOWUITests.swift */; };
+		32D4E93A2C0D560F0066DE8B /* WOWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9392C0D560F0066DE8B /* WOWUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34E268612C0B0E4800A485D9 /* PBXContainerItemProxy */ = {
+		32D4E92A2C0D560F0066DE8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 34E268482C0B0E4700A485D9 /* Project object */;
+			containerPortal = 32D4E90B2C0D560D0066DE8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34E2684F2C0B0E4700A485D9;
+			remoteGlobalIDString = 32D4E9122C0D560D0066DE8B;
 			remoteInfo = WOW;
 		};
-		34E2686B2C0B0E4800A485D9 /* PBXContainerItemProxy */ = {
+		32D4E9342C0D560F0066DE8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 34E268482C0B0E4700A485D9 /* Project object */;
+			containerPortal = 32D4E90B2C0D560D0066DE8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34E2684F2C0B0E4700A485D9;
+			remoteGlobalIDString = 32D4E9122C0D560D0066DE8B;
 			remoteInfo = WOW;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		342C52BB2C0B9D840026E6C4 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyColor .swift"; sourceTree = "<group>"; };
-		34E268502C0B0E4700A485D9 /* WOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E268532C0B0E4700A485D9 /* WOWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWApp.swift; sourceTree = "<group>"; };
-		34E268572C0B0E4800A485D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34E2685A2C0B0E4800A485D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34E268602C0B0E4800A485D9 /* WOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E268642C0B0E4800A485D9 /* WOWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWTests.swift; sourceTree = "<group>"; };
-		34E2686A2C0B0E4800A485D9 /* WOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E2686E2C0B0E4800A485D9 /* WOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITests.swift; sourceTree = "<group>"; };
-		34E268702C0B0E4800A485D9 /* WOWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3235DE202C0F7738004BA848 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32D4E9132C0D560D0066DE8B /* WOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D4E9162C0D560D0066DE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32D4E91D2C0D560D0066DE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32D4E91F2C0D560F0066DE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32D4E9222C0D560F0066DE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32D4E9242C0D560F0066DE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D4E9292C0D560F0066DE8B /* WOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D4E92D2C0D560F0066DE8B /* WOWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWTests.swift; sourceTree = "<group>"; };
+		32D4E9332C0D560F0066DE8B /* WOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D4E9372C0D560F0066DE8B /* WOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITests.swift; sourceTree = "<group>"; };
+		32D4E9392C0D560F0066DE8B /* WOWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34E2684D2C0B0E4700A485D9 /* Frameworks */ = {
+		32D4E9102C0D560D0066DE8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E2685D2C0B0E4800A485D9 /* Frameworks */ = {
+		32D4E9262C0D560F0066DE8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E268672C0B0E4800A485D9 /* Frameworks */ = {
+		32D4E9302C0D560F0066DE8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,67 +76,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		342C52BA2C0B9CF60026E6C4 /* View */ = {
+		3235DE1D2C0F76F4004BA848 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				342C52BB2C0B9D840026E6C4 /* Main.swift */,
+				3235DE202C0F7738004BA848 /* LoginViewController.swift */,
 			);
-			path = View;
+			path = LoginView;
 			sourceTree = "<group>";
 		};
-		34E268472C0B0E4700A485D9 = {
+		32D4E90A2C0D560D0066DE8B = {
 			isa = PBXGroup;
 			children = (
-				34E268522C0B0E4700A485D9 /* WOW */,
-				34E268632C0B0E4800A485D9 /* WOWTests */,
-				34E2686D2C0B0E4800A485D9 /* WOWUITests */,
-				34E268512C0B0E4700A485D9 /* Products */,
+				32D4E9152C0D560D0066DE8B /* WOW */,
+				32D4E92C2C0D560F0066DE8B /* WOWTests */,
+				32D4E9362C0D560F0066DE8B /* WOWUITests */,
+				32D4E9142C0D560D0066DE8B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		34E268512C0B0E4700A485D9 /* Products */ = {
+		32D4E9142C0D560D0066DE8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34E268502C0B0E4700A485D9 /* WOW.app */,
-				34E268602C0B0E4800A485D9 /* WOWTests.xctest */,
-				34E2686A2C0B0E4800A485D9 /* WOWUITests.xctest */,
+				32D4E9132C0D560D0066DE8B /* WOW.app */,
+				32D4E9292C0D560F0066DE8B /* WOWTests.xctest */,
+				32D4E9332C0D560F0066DE8B /* WOWUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34E268522C0B0E4700A485D9 /* WOW */ = {
+		32D4E9152C0D560D0066DE8B /* WOW */ = {
 			isa = PBXGroup;
 			children = (
-				342C52BA2C0B9CF60026E6C4 /* View */,
-				34E268532C0B0E4700A485D9 /* WOWApp.swift */,
-				34E268572C0B0E4800A485D9 /* Assets.xcassets */,
-				34E268592C0B0E4800A485D9 /* Preview Content */,
-				342C52BD2C0BAFDD0026E6C4 /* MyColor .swift */,
+				3235DE1D2C0F76F4004BA848 /* LoginView */,
+				32D4E9162C0D560D0066DE8B /* AppDelegate.swift */,
+				32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */,
+				32D4E91C2C0D560D0066DE8B /* Main.storyboard */,
+				32D4E91F2C0D560F0066DE8B /* Assets.xcassets */,
+				32D4E9212C0D560F0066DE8B /* LaunchScreen.storyboard */,
+				32D4E9242C0D560F0066DE8B /* Info.plist */,
 			);
 			path = WOW;
 			sourceTree = "<group>";
 		};
-		34E268592C0B0E4800A485D9 /* Preview Content */ = {
+		32D4E92C2C0D560F0066DE8B /* WOWTests */ = {
 			isa = PBXGroup;
 			children = (
-				34E2685A2C0B0E4800A485D9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		34E268632C0B0E4800A485D9 /* WOWTests */ = {
-			isa = PBXGroup;
-			children = (
-				34E268642C0B0E4800A485D9 /* WOWTests.swift */,
+				32D4E92D2C0D560F0066DE8B /* WOWTests.swift */,
 			);
 			path = WOWTests;
 			sourceTree = "<group>";
 		};
-		34E2686D2C0B0E4800A485D9 /* WOWUITests */ = {
+		32D4E9362C0D560F0066DE8B /* WOWUITests */ = {
 			isa = PBXGroup;
 			children = (
-				34E2686E2C0B0E4800A485D9 /* WOWUITests.swift */,
-				34E268702C0B0E4800A485D9 /* WOWUITestsLaunchTests.swift */,
+				32D4E9372C0D560F0066DE8B /* WOWUITests.swift */,
+				32D4E9392C0D560F0066DE8B /* WOWUITestsLaunchTests.swift */,
 			);
 			path = WOWUITests;
 			sourceTree = "<group>";
@@ -141,13 +138,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34E2684F2C0B0E4700A485D9 /* WOW */ = {
+		32D4E9122C0D560D0066DE8B /* WOW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34E268742C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOW" */;
+			buildConfigurationList = 32D4E93D2C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOW" */;
 			buildPhases = (
-				34E2684C2C0B0E4700A485D9 /* Sources */,
-				34E2684D2C0B0E4700A485D9 /* Frameworks */,
-				34E2684E2C0B0E4700A485D9 /* Resources */,
+				32D4E90F2C0D560D0066DE8B /* Sources */,
+				32D4E9102C0D560D0066DE8B /* Frameworks */,
+				32D4E9112C0D560D0066DE8B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,69 +152,69 @@
 			);
 			name = WOW;
 			productName = WOW;
-			productReference = 34E268502C0B0E4700A485D9 /* WOW.app */;
+			productReference = 32D4E9132C0D560D0066DE8B /* WOW.app */;
 			productType = "com.apple.product-type.application";
 		};
-		34E2685F2C0B0E4800A485D9 /* WOWTests */ = {
+		32D4E9282C0D560F0066DE8B /* WOWTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34E268772C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOWTests" */;
+			buildConfigurationList = 32D4E9402C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOWTests" */;
 			buildPhases = (
-				34E2685C2C0B0E4800A485D9 /* Sources */,
-				34E2685D2C0B0E4800A485D9 /* Frameworks */,
-				34E2685E2C0B0E4800A485D9 /* Resources */,
+				32D4E9252C0D560F0066DE8B /* Sources */,
+				32D4E9262C0D560F0066DE8B /* Frameworks */,
+				32D4E9272C0D560F0066DE8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34E268622C0B0E4800A485D9 /* PBXTargetDependency */,
+				32D4E92B2C0D560F0066DE8B /* PBXTargetDependency */,
 			);
 			name = WOWTests;
 			productName = WOWTests;
-			productReference = 34E268602C0B0E4800A485D9 /* WOWTests.xctest */;
+			productReference = 32D4E9292C0D560F0066DE8B /* WOWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		34E268692C0B0E4800A485D9 /* WOWUITests */ = {
+		32D4E9322C0D560F0066DE8B /* WOWUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34E2687A2C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOWUITests" */;
+			buildConfigurationList = 32D4E9432C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOWUITests" */;
 			buildPhases = (
-				34E268662C0B0E4800A485D9 /* Sources */,
-				34E268672C0B0E4800A485D9 /* Frameworks */,
-				34E268682C0B0E4800A485D9 /* Resources */,
+				32D4E92F2C0D560F0066DE8B /* Sources */,
+				32D4E9302C0D560F0066DE8B /* Frameworks */,
+				32D4E9312C0D560F0066DE8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34E2686C2C0B0E4800A485D9 /* PBXTargetDependency */,
+				32D4E9352C0D560F0066DE8B /* PBXTargetDependency */,
 			);
 			name = WOWUITests;
 			productName = WOWUITests;
-			productReference = 34E2686A2C0B0E4800A485D9 /* WOWUITests.xctest */;
+			productReference = 32D4E9332C0D560F0066DE8B /* WOWUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		34E268482C0B0E4700A485D9 /* Project object */ = {
+		32D4E90B2C0D560D0066DE8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					34E2684F2C0B0E4700A485D9 = {
+					32D4E9122C0D560D0066DE8B = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					34E2685F2C0B0E4800A485D9 = {
+					32D4E9282C0D560F0066DE8B = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 34E2684F2C0B0E4700A485D9;
+						TestTargetID = 32D4E9122C0D560D0066DE8B;
 					};
-					34E268692C0B0E4800A485D9 = {
+					32D4E9322C0D560F0066DE8B = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 34E2684F2C0B0E4700A485D9;
+						TestTargetID = 32D4E9122C0D560D0066DE8B;
 					};
 				};
 			};
-			buildConfigurationList = 34E2684B2C0B0E4700A485D9 /* Build configuration list for PBXProject "WOW" */;
+			buildConfigurationList = 32D4E90E2C0D560D0066DE8B /* Build configuration list for PBXProject "WOW" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,36 +222,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 34E268472C0B0E4700A485D9;
-			productRefGroup = 34E268512C0B0E4700A485D9 /* Products */;
+			mainGroup = 32D4E90A2C0D560D0066DE8B;
+			productRefGroup = 32D4E9142C0D560D0066DE8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34E2684F2C0B0E4700A485D9 /* WOW */,
-				34E2685F2C0B0E4800A485D9 /* WOWTests */,
-				34E268692C0B0E4800A485D9 /* WOWUITests */,
+				32D4E9122C0D560D0066DE8B /* WOW */,
+				32D4E9282C0D560F0066DE8B /* WOWTests */,
+				32D4E9322C0D560F0066DE8B /* WOWUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		34E2684E2C0B0E4700A485D9 /* Resources */ = {
+		32D4E9112C0D560D0066DE8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E2685B2C0B0E4800A485D9 /* Preview Assets.xcassets in Resources */,
-				34E268582C0B0E4800A485D9 /* Assets.xcassets in Resources */,
+				32D4E9202C0D560F0066DE8B /* Assets.xcassets in Resources */,
+				32D4E9232C0D560F0066DE8B /* Base in Resources */,
+				32D4E91E2C0D560D0066DE8B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E2685E2C0B0E4800A485D9 /* Resources */ = {
+		32D4E9272C0D560F0066DE8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E268682C0B0E4800A485D9 /* Resources */ = {
+		32D4E9312C0D560F0066DE8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,50 +262,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34E2684C2C0B0E4700A485D9 /* Sources */ = {
+		32D4E90F2C0D560D0066DE8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342C52BE2C0BAFDD0026E6C4 /* MyColor .swift in Sources */,
-				342C52BC2C0B9D840026E6C4 /* Main.swift in Sources */,
-				34E268542C0B0E4700A485D9 /* WOWApp.swift in Sources */,
+				32D4E9172C0D560D0066DE8B /* AppDelegate.swift in Sources */,
+				32D4E9192C0D560D0066DE8B /* SceneDelegate.swift in Sources */,
+				3235DE212C0F7738004BA848 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E2685C2C0B0E4800A485D9 /* Sources */ = {
+		32D4E9252C0D560F0066DE8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E268652C0B0E4800A485D9 /* WOWTests.swift in Sources */,
+				32D4E92E2C0D560F0066DE8B /* WOWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34E268662C0B0E4800A485D9 /* Sources */ = {
+		32D4E92F2C0D560F0066DE8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E268712C0B0E4800A485D9 /* WOWUITestsLaunchTests.swift in Sources */,
-				34E2686F2C0B0E4800A485D9 /* WOWUITests.swift in Sources */,
+				32D4E93A2C0D560F0066DE8B /* WOWUITestsLaunchTests.swift in Sources */,
+				32D4E9382C0D560F0066DE8B /* WOWUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34E268622C0B0E4800A485D9 /* PBXTargetDependency */ = {
+		32D4E92B2C0D560F0066DE8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 34E2684F2C0B0E4700A485D9 /* WOW */;
-			targetProxy = 34E268612C0B0E4800A485D9 /* PBXContainerItemProxy */;
+			target = 32D4E9122C0D560D0066DE8B /* WOW */;
+			targetProxy = 32D4E92A2C0D560F0066DE8B /* PBXContainerItemProxy */;
 		};
-		34E2686C2C0B0E4800A485D9 /* PBXTargetDependency */ = {
+		32D4E9352C0D560F0066DE8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 34E2684F2C0B0E4700A485D9 /* WOW */;
-			targetProxy = 34E2686B2C0B0E4800A485D9 /* PBXContainerItemProxy */;
+			target = 32D4E9122C0D560D0066DE8B /* WOW */;
+			targetProxy = 32D4E9342C0D560F0066DE8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		32D4E91C2C0D560D0066DE8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D4E91D2C0D560D0066DE8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32D4E9212C0D560F0066DE8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D4E9222C0D560F0066DE8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		34E268722C0B0E4800A485D9 /* Debug */ = {
+		32D4E93B2C0D560F0066DE8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		34E268732C0B0E4800A485D9 /* Release */ = {
+		32D4E93C2C0D560F0066DE8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,20 +443,19 @@
 			};
 			name = Release;
 		};
-		34E268752C0B0E4800A485D9 /* Debug */ = {
+		32D4E93E2C0D560F0066DE8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WOW/Preview Content\"";
 				DEVELOPMENT_TEAM = MCTPZ2D22A;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WOW/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,20 +471,19 @@
 			};
 			name = Debug;
 		};
-		34E268762C0B0E4800A485D9 /* Release */ = {
+		32D4E93F2C0D560F0066DE8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WOW/Preview Content\"";
 				DEVELOPMENT_TEAM = MCTPZ2D22A;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WOW/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +499,7 @@
 			};
 			name = Release;
 		};
-		34E268782C0B0E4800A485D9 /* Debug */ = {
+		32D4E9412C0D560F0066DE8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		34E268792C0B0E4800A485D9 /* Release */ = {
+		32D4E9422C0D560F0066DE8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +539,7 @@
 			};
 			name = Release;
 		};
-		34E2687B2C0B0E4800A485D9 /* Debug */ = {
+		32D4E9442C0D560F0066DE8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -542,7 +557,7 @@
 			};
 			name = Debug;
 		};
-		34E2687C2C0B0E4800A485D9 /* Release */ = {
+		32D4E9452C0D560F0066DE8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,43 +578,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34E2684B2C0B0E4700A485D9 /* Build configuration list for PBXProject "WOW" */ = {
+		32D4E90E2C0D560D0066DE8B /* Build configuration list for PBXProject "WOW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34E268722C0B0E4800A485D9 /* Debug */,
-				34E268732C0B0E4800A485D9 /* Release */,
+				32D4E93B2C0D560F0066DE8B /* Debug */,
+				32D4E93C2C0D560F0066DE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34E268742C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOW" */ = {
+		32D4E93D2C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34E268752C0B0E4800A485D9 /* Debug */,
-				34E268762C0B0E4800A485D9 /* Release */,
+				32D4E93E2C0D560F0066DE8B /* Debug */,
+				32D4E93F2C0D560F0066DE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34E268772C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOWTests" */ = {
+		32D4E9402C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOWTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34E268782C0B0E4800A485D9 /* Debug */,
-				34E268792C0B0E4800A485D9 /* Release */,
+				32D4E9412C0D560F0066DE8B /* Debug */,
+				32D4E9422C0D560F0066DE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34E2687A2C0B0E4800A485D9 /* Build configuration list for PBXNativeTarget "WOWUITests" */ = {
+		32D4E9432C0D560F0066DE8B /* Build configuration list for PBXNativeTarget "WOWUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34E2687B2C0B0E4800A485D9 /* Debug */,
-				34E2687C2C0B0E4800A485D9 /* Release */,
+				32D4E9442C0D560F0066DE8B /* Debug */,
+				32D4E9452C0D560F0066DE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 34E268482C0B0E4700A485D9 /* Project object */;
+	rootObject = 32D4E90B2C0D560D0066DE8B /* Project object */;
 }
