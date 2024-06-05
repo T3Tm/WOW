@@ -33,22 +33,25 @@ class LoginViewController: UIViewController {
         
         let id = idTextField.text!
         let pass = passTextField.text!
-        Auth.auth().signIn(withEmail: id, password: pass){[weak self] authResult, error in
+
+        Auth.auth().signIn(withEmail: id, password: pass){[weak self] authResult, error in //여기가 화면 전환 되는 부분
+            
+            guard let selfs = authResult else {return}
             self?.progressIndicator.stopAnimating()
             self?.progressIndicator.isHidden = true
-            guard let self = self else {
-                return}
-            guard (authResult?.user) != nil else{
-                self.validLabel.text = "로그인 실패하였습니다."
+            guard (selfs.user) != nil else{
+                self?.validLabel.text = "로그인 실패하였습니다."
                 return
             }
-            
-            //다음 화면 전환
-            let nextVC = self.storyboard?.instantiateViewController(identifier: "Main" )
-            nextVC?.modalTransitionStyle = .coverVertical
-            nextVC?.modalPresentationStyle = .fullScreen
-            self.present(nextVC!, animated: true, completion: nil)
-            //화면 전환이 일어나야 함.
+            guard let nextVC = self?.storyboard?.instantiateViewController(identifier: "Main" ) as? MainController else {
+                print("화면 전환 실패")
+                return
+            }
+
+            nextVC.modalTransitionStyle = .coverVertical
+            nextVC.modalPresentationStyle = .fullScreen
+            nextVC.uid = selfs.user.uid
+            self?.present(nextVC, animated: true,completion: nil)
         }
     }
     @IBAction func registerBtn(_ sender: UIButton) {
@@ -62,7 +65,7 @@ class LoginViewController: UIViewController {
         }
         let id = idTextField.text!
         let pass = passTextField.text!
-        Auth.auth().createUser(withEmail: id, password: pass) { [weak self] authResult, error in
+        Auth.auth().createUser(withEmail: id, password: pass) { [weak self] authResult, error in // 여기가 회원가입 부분
             self?.progressIndicator.isHidden = true
             self?.progressIndicator.stopAnimating()
             //로그인 성공 했는지 보면 된다.
