@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3213A5122C0FFE2C0051D50B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3213A5112C0FFE2C0051D50B /* GoogleService-Info.plist */; };
 		3213A5152C0FFFB10051D50B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3213A5142C0FFFB10051D50B /* FirebaseAnalytics */; };
 		3213A5172C0FFFB10051D50B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3213A5162C0FFFB10051D50B /* FirebaseDatabase */; };
 		3213A5192C0FFFB10051D50B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3213A5182C0FFFB10051D50B /* FirebaseFirestore */; };
@@ -16,6 +15,8 @@
 		3213A5222C1023DC0051D50B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213A5212C1023DC0051D50B /* MainController.swift */; };
 		3235DE212C0F7738004BA848 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235DE202C0F7738004BA848 /* LoginViewController.swift */; };
 		324303622C109F6D000509C2 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324303612C109F6D000509C2 /* CalendarCell.swift */; };
+		324303642C10F5A9000509C2 /* friendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324303632C10F5A9000509C2 /* friendController.swift */; };
+		32C3C30C2C12E832001C5B7D /* settingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3C30B2C12E832001C5B7D /* settingController.swift */; };
 		32D4E9172C0D560D0066DE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9162C0D560D0066DE8B /* AppDelegate.swift */; };
 		32D4E9192C0D560D0066DE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */; };
 		32D4E91E2C0D560D0066DE8B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 32D4E91D2C0D560D0066DE8B /* Base */; };
@@ -24,6 +25,12 @@
 		32D4E92E2C0D560F0066DE8B /* WOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E92D2C0D560F0066DE8B /* WOWTests.swift */; };
 		32D4E9382C0D560F0066DE8B /* WOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9372C0D560F0066DE8B /* WOWUITests.swift */; };
 		32D4E93A2C0D560F0066DE8B /* WOWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4E9392C0D560F0066DE8B /* WOWUITestsLaunchTests.swift */; };
+		32E6AA9B2C1F0ED500EDAA1B /* MainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6AA9A2C1F0ED500EDAA1B /* MainDetailViewController.swift */; };
+		32E6AA9D2C1F455400EDAA1B /* weekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6AA9C2C1F455300EDAA1B /* weekCell.swift */; };
+		32E6AA9F2C1F652E00EDAA1B /* weekCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6AA9E2C1F652E00EDAA1B /* weekCellTableViewCell.swift */; };
+		32E6AAA12C1F8A3000EDAA1B /* plusModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6AAA02C1F8A3000EDAA1B /* plusModal.swift */; };
+		32F3AA522C1AD8B4001F34D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F3AA512C1AD8B3001F34D1 /* GoogleService-Info.plist */; };
+		32F3AA542C1AE7F3001F34D1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F3AA532C1AE7F3001F34D1 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3213A5112C0FFE2C0051D50B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3213A5212C1023DC0051D50B /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		3235DE202C0F7738004BA848 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		324303612C109F6D000509C2 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		324303632C10F5A9000509C2 /* friendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendController.swift; sourceTree = "<group>"; };
+		32C3C30B2C12E832001C5B7D /* settingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingController.swift; sourceTree = "<group>"; };
 		32D4E9132C0D560D0066DE8B /* WOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D4E9162C0D560D0066DE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +68,12 @@
 		32D4E9332C0D560F0066DE8B /* WOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D4E9372C0D560F0066DE8B /* WOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITests.swift; sourceTree = "<group>"; };
 		32D4E9392C0D560F0066DE8B /* WOWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32E6AA9A2C1F0ED500EDAA1B /* MainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailViewController.swift; sourceTree = "<group>"; };
+		32E6AA9C2C1F455300EDAA1B /* weekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekCell.swift; sourceTree = "<group>"; };
+		32E6AA9E2C1F652E00EDAA1B /* weekCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekCellTableViewCell.swift; sourceTree = "<group>"; };
+		32E6AAA02C1F8A3000EDAA1B /* plusModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plusModal.swift; sourceTree = "<group>"; };
+		32F3AA512C1AD8B3001F34D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32F3AA532C1AE7F3001F34D1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,10 @@
 			children = (
 				3213A5212C1023DC0051D50B /* MainController.swift */,
 				324303612C109F6D000509C2 /* CalendarCell.swift */,
+				32E6AA9A2C1F0ED500EDAA1B /* MainDetailViewController.swift */,
+				32E6AA9C2C1F455300EDAA1B /* weekCell.swift */,
+				32E6AA9E2C1F652E00EDAA1B /* weekCellTableViewCell.swift */,
+				32E6AAA02C1F8A3000EDAA1B /* plusModal.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -104,6 +122,7 @@
 		3213A51F2C1021890051D50B /* Friend */ = {
 			isa = PBXGroup;
 			children = (
+				324303632C10F5A9000509C2 /* friendController.swift */,
 			);
 			path = Friend;
 			sourceTree = "<group>";
@@ -111,6 +130,7 @@
 		3213A5202C1021910051D50B /* setting */ = {
 			isa = PBXGroup;
 			children = (
+				32C3C30B2C12E832001C5B7D /* settingController.swift */,
 			);
 			path = setting;
 			sourceTree = "<group>";
@@ -146,10 +166,10 @@
 		32D4E9152C0D560D0066DE8B /* WOW */ = {
 			isa = PBXGroup;
 			children = (
+				32F3AA512C1AD8B3001F34D1 /* GoogleService-Info.plist */,
 				3213A5202C1021910051D50B /* setting */,
 				3213A51F2C1021890051D50B /* Friend */,
 				3213A51E2C1021840051D50B /* Main */,
-				3213A5112C0FFE2C0051D50B /* GoogleService-Info.plist */,
 				3235DE1D2C0F76F4004BA848 /* Login */,
 				32D4E9162C0D560D0066DE8B /* AppDelegate.swift */,
 				32D4E9182C0D560D0066DE8B /* SceneDelegate.swift */,
@@ -157,6 +177,7 @@
 				32D4E91F2C0D560F0066DE8B /* Assets.xcassets */,
 				32D4E9212C0D560F0066DE8B /* LaunchScreen.storyboard */,
 				32D4E9242C0D560F0066DE8B /* Info.plist */,
+				32F3AA532C1AE7F3001F34D1 /* TabBarController.swift */,
 			);
 			path = WOW;
 			sourceTree = "<group>";
@@ -293,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D4E9202C0D560F0066DE8B /* Assets.xcassets in Resources */,
-				3213A5122C0FFE2C0051D50B /* GoogleService-Info.plist in Resources */,
+				32F3AA522C1AD8B4001F34D1 /* GoogleService-Info.plist in Resources */,
 				32D4E9232C0D560F0066DE8B /* Base in Resources */,
 				32D4E91E2C0D560D0066DE8B /* Base in Resources */,
 			);
@@ -321,10 +342,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3213A5222C1023DC0051D50B /* MainController.swift in Sources */,
+				32F3AA542C1AE7F3001F34D1 /* TabBarController.swift in Sources */,
+				324303642C10F5A9000509C2 /* friendController.swift in Sources */,
+				32E6AA9F2C1F652E00EDAA1B /* weekCellTableViewCell.swift in Sources */,
 				32D4E9172C0D560D0066DE8B /* AppDelegate.swift in Sources */,
 				32D4E9192C0D560D0066DE8B /* SceneDelegate.swift in Sources */,
+				32C3C30C2C12E832001C5B7D /* settingController.swift in Sources */,
+				32E6AA9B2C1F0ED500EDAA1B /* MainDetailViewController.swift in Sources */,
+				32E6AA9D2C1F455400EDAA1B /* weekCell.swift in Sources */,
 				3235DE212C0F7738004BA848 /* LoginViewController.swift in Sources */,
 				324303622C109F6D000509C2 /* CalendarCell.swift in Sources */,
+				32E6AAA12C1F8A3000EDAA1B /* plusModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

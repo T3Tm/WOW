@@ -10,6 +10,7 @@ import UIKit
 
 import FirebaseAuth
 import FirebaseCore
+import Firebase
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
@@ -33,7 +34,7 @@ class LoginViewController: UIViewController {
         
         let id = idTextField.text!
         let pass = passTextField.text!
-
+        
         Auth.auth().signIn(withEmail: id, password: pass){[weak self] authResult, error in //여기가 화면 전환 되는 부분
             
             guard let selfs = authResult else {return}
@@ -43,15 +44,11 @@ class LoginViewController: UIViewController {
                 self?.validLabel.text = "로그인 실패하였습니다."
                 return
             }
-            guard let nextVC = self?.storyboard?.instantiateViewController(identifier: "Main" ) as? MainController else {
-                print("화면 전환 실패")
-                return
-            }
-
-            nextVC.modalTransitionStyle = .coverVertical
-            nextVC.modalPresentationStyle = .fullScreen
+            guard let nextVC = self?.storyboard?.instantiateViewController(withIdentifier: "Main") as? MainController else { return }
             nextVC.uid = selfs.user.uid
-            self?.present(nextVC, animated: true,completion: nil)
+            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeScene(nextVC, animate: false)
+            
+           
         }
     }
     @IBAction func registerBtn(_ sender: UIButton) {
@@ -77,9 +74,19 @@ class LoginViewController: UIViewController {
                 self.validLabel.text = "이미 존재하는 이메일 입니다."
                 return
             }
+            
             self.validLabel.text = "회원가입에 성공하였습니다."
+            let db = Firestore.firestore()
+            let userRef = db.collection("users").document(id)
+            
+            let userData = [
+                "email": id,
+            ]
+            
+            userRef.setData(userData)
         }
     }
+
     
     func validMatch() -> Bool{
         guard let id = idTextField.text else {
